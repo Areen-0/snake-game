@@ -159,7 +159,7 @@ def move():
                 f.write(str(high_score))
 
         global delay
-        delay = max(40 , 100 - score * 3) # 0=1x 5=1.18x 10=1.43x 15=1.82x 20=2.5x
+        delay = max(40 , 100 - score * 3) 
                      
     #update snake body
     for i in range(len(snake_body)-1 , -1 , -1):
@@ -234,10 +234,10 @@ def draw():
         canvas.create_text(WINDOW_WIDTH/2 , WINDOW_HEIGHT/2 , font="Arial 30" , text="PAUSED", fill="yellow")  
 
 
-    Window.after(delay, draw) # 100 = 1/10 second , 10 frames/second
+    Window.after(delay, draw) 
 
 draw()
 
-Window.bind("<KeyPress>" , change_direction )  #when you press on any key and then let go
+Window.bind("<KeyPress>" , change_direction ) 
 Window.mainloop()
 
