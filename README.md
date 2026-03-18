@@ -1,4 +1,5 @@
 Snake Game 🐍
+
 A classic Snake game implemented in Python using Tkinter.
 This project features smooth controls, dynamic difficulty, two wall modes,
 sound effects, and persistent high score tracking.
@@ -48,7 +49,25 @@ Sounds run in a separate thread so they never lag the game.
 🔊 winsound (Windows only – for sound effects)
 On other OS you can comment out the sound lines or replace with a cross‑platform library.
 
-📦 All other modules (random, threading) are part of the Python standard library.
+📦 All other modules (random, threading) are part of the Python standard library
+
+Future Features (In Development)
+🔇 Mute option – Ability to turn sound effects on or off with the press of a button.
+
+🧩 Difficulty levels – Add levels (easy, medium, hard) that control initial speed or grid size.
+
+📊 Game statistics – Display detailed stats such as total playtime, average score, number of deaths, and longest snake achieved.
+
+🍎 Special food – Add distinctive food types that grant extra points or special effects (like golden food giving 3 points instead of 1, or food that temporarily slows down movement).
+
+
+📄 License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+⭐ Show Your Support
+
+If you enjoy this game, please consider giving it a star on GitHub – it helps others discover it!
 
 Enjoy the game! 🐍✨
 
